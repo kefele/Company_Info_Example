@@ -12,7 +12,9 @@
   margin: 0;
   color: #444;
 } */
-
+*{
+  font-family: "Open Sans";
+ }
 .container{
   
   height: 170px
@@ -21,6 +23,7 @@
 .container a{
   text-decoration-line: none;
   color: #69696a;
+  padding: 20px;
   
 }
 
@@ -44,7 +47,9 @@
 }
 
 .graphic{
+  left: 23%;
   float: right;
+  position: relative;
   width: 45%;
 }
 
@@ -53,30 +58,38 @@
 }
 
 .scroll{
-align-items: center;
+  position: relative;
+  top: 50%;
+  transform: translateX(500%);
+
 }
 
 .circle1{
  
 
-  height: 250px;
-  width: 250px;
-  background-color:  rgba(247, 193, 162, 0.7)
-    ;
-  border-radius: 50%;
-  display: inline-block;
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  background:rgba(247, 193, 162, 0.7); 
+  top: 90px;
+  left: 150px;
+  border-radius: 80%;
 }
 .circle2{
-  height: 175px;
-  width: 175px;
-  border-radius: 50%;
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  top: 30px;
+  left: 170px;
   background: rgba(207, 130, 213, 0.6);
 }
 
 .circle3{
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  border-radius: 80%;
   background: rgba(247, 136, 167, 0.6);
 
   
