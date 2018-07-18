@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 @import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
 
-body {
+/* body {
   
   position: relative;
   height: 200vh;
@@ -11,17 +11,24 @@ body {
   font-size: 18px;
   margin: 0;
   color: #444;
-}
+} */
 
 .container{
+  
   height: 170px
+}
+
+.container a{
+  text-decoration-line: none;
+  color: #69696a;
+  
 }
 
 .logo{
   float: left
 }
 .topnav{
-  background-color: aqua;
+  background-color: #f9fafc;
   float: right;
 }
 
@@ -72,5 +79,15 @@ align-items: center;
   border-radius: 50%;
   background: rgba(247, 136, 167, 0.6);
 
+  
+}
+
+
+button{
+  border-radius: 12px;
+  font-size: 16px;
+  background-color: #000;
+  color: #f9fafc
+  
   
 }
